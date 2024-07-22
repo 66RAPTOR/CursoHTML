@@ -12,6 +12,25 @@
 
     <link rel="stylesheet" href="stilos/estilo1.css">
 
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 1px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 0.8rm;
+        }
+
+        td{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px 20px;
+        }
+
+        th{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px 20px;
+            background-color: rgb(112, 112, 112);
+        }
+    </style>
 </head>
 
 <body>
@@ -57,7 +76,7 @@
     <br>
 
     <h2>Enlace</h2>
-    <a href="https://www.google.com" target="_blank"> GOOGLE</a>
+    <a href="https://www.google.com" target="_parent"> GOOGLE</a>
     <br>
 
     <h2>Correo</h2>
@@ -67,17 +86,85 @@
 
     <!--MULTIMEDIA-->
     <H1>IMAGENES</H1>
-    <img src="/imagenes/all/collage-fondo-programacion.jpg" alt="Git logo" height="500">
+    <img src="multimedia/img/collage-fondo-programacion.jpg" alt="Git logo" height="500" wi>
     <a href="https://www.google.com" target="_blank">
-        <img src="imagenes/all/Alemania.jpg" alt="Haker" height="500">
+        <img src="multimedia/img/Alemania.jpg" alt="Haker" height="500">
     </a>
     <br>
 
     <h1>VIDEOS</h1>
-    <video controls width="500" poster="multimedia/img/copailo.png">
+    <video controls width="50%" poster="multimedia/img/copailo.png">
         <source src="multimedia/video/IntroducingMicrosoft365Copilot.mp4" type="video/mp4">
     </video>
+    <br>
+
     
+    <h1>AUDIO</h1>
+    <audio src="multimedia/audio/Yubeili_-__Lo_Intenté__ft_Alka_Produce.mp3" controls></audio>
+    <br>
+
+    <h1>LISTAS</h1>
+    <!--LISTA DESORDENADA-->
+    <h2>LISTA DESERDENADAS</h2>
+    <ul>
+        <li>CAFE</li>
+        <li>AZUCAR</li>
+        <li>VAINILLA</li>
+        <li>AGUA</li>
+        <li>LECHE</li>
+    </ul>
+    <br>
+    
+    <h2>Lista ordenada</h2>
+    <ol >
+        <li>Levantarme</li>
+        <li>Tomar una ducha</li>
+        <li>Desayunar</li>
+        <li>Reunion de trabajo</li>
+        <li>Gym</li>
+    </ol>
+    <br>
+
+    <h2>TABLA</h2>
+    <!-- 
+    tr:FILA
+    td: columna
+    th: titulo
+    -->
+    <h2>TABLA DE ALUMNOS</h2>
+    <table>
+        <colgroup>
+            <col style="background-color: rgb(111, 128, 129);">
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <tr>
+            <th>*</th>
+            <th>Pedro</th>
+            <th>Ricardo</th>
+            <th>Ana</th>
+            <th>Lucia</th>
+        </tr>
+        <tr>
+            <td>EDAD</td>
+            <td>20</td>
+            <td>18</td>
+            <td>19</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>PUNTOS</td>
+            <td>90</td>
+            <td>99</td>
+            <td>87</td>
+            <td>91</td>
+        </tr>
+
+
+    </table>
+
 
 
 
