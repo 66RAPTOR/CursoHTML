@@ -1,0 +1,59 @@
+/* Estilos generales de la tabla */
+.horario-clases {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Estilos para el caption */
+.horario-clases caption {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/* Estilos para celdas y encabezados */
+.horario-clases th,
+.horario-clases td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Estilos para el encabezado */
+.horario-clases thead th {
+    border-bottom: 2px solid #333;
+    font-weight: bold;
+}
+
+/* Eliminar borde inferior de la última fila */
+.horario-clases tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Estilos para la primera columna */
+.horario-clases td:first-child {
+    font-weight: bold;
+}
+
+/* Estilos para el pie de tabla */
+.horario-clases tfoot td {
+    font-style: italic;
+    color: #777;
+    padding-top: 20px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .horario-clases {
+        font-size: 14px;
+    }
+    
+    .horario-clases th,
+    .horario-clases td {
+        padding: 8px;
+    }
+}
