@@ -14,7 +14,7 @@
 
     <form action="envio.php" method="POST">
         <label for="">Nikname:</label>
-        <input type="text" id="nikname" name="nikname" placeholder="Escriba el nikname" value="RAPTOR" readonly>
+        <input type="text" id="nikname" name="nikname"  value="RAPTOR" readonly>
         <br>
 
         <label for="">Usuario:</label>
@@ -30,18 +30,25 @@
             minlength="5">
         <br>
 
-        <label for="f1_condiciones">Seleccione</label>
-        <input type="checkbox" name="f1_condiciones" id="f1_condiciones" value="html"> HTML
-        <input type="checkbox" name="f1_condiciones" id="f1_condiciones" value="CSS"> CSS
+        <h3>Tecnología</h3>
+        <input type="checkbox" name="Tecnología" id="HTML" value="HTML">
+        <label for="HTML">HTML</label> 
+
+        <input type="checkbox" name="Tecnología" id="CSS" value="CSS">
+        <label for="CSS">CSS</label>
+
+        <br>
         <br>
 
-        <label for="">Seleccione</label>
-        <input type="radio" name="f1_condiciones" id="f1_condiciones" value="html"> HTML
-        <input type="radio" name="f1_condiciones" id="f1_condiciones" value="CSS"> CSS
+        <h3>sexo</h3>
+        <input type="radio" name="sexo" id="hombre" value="Hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" id="mujer" value="Mujer">
+        <label for="mujer">Mujer</label><br>
         <br>
 
-        <label for="anioProgramando">Años programando:</label>
-        <input type="number" id="anioProgramando" name="anioProgramando"
+        <label for="edad">Edad:</label>  
+        <input type="number" id="edad" name="edad" 
             placeholder="Escriba cuantos años lleva programando" min="3" max="30" required>
         <br>
 
@@ -50,7 +57,7 @@
         <br><br>
 
         <label for="opinion">Escriba una descripcion personal</label> <br>
-        <textarea name="opinion" id="opinion" placeholder="Escriba una descripcion" cols="30"></textarea>
+        <textarea name="opinion" id="opinion" placeholder="Escriba una descripcion" cols="80%"></textarea>
         <br><br>
 
         <label for="pais">Seleccione el pais</label>
@@ -64,7 +71,7 @@
             <optgroup label="Armadura">
                 <option value="Escudo">Escudo</option>
                 <option value="Lanza">Lanza</option>
-            </optgroup>
+            </optgroup><hr>
             <optgroup label="Ataque">
                 <option value="Fuerza">Fuerza</option>
                 <option value="Velocidad">Velocidad</option>
@@ -74,8 +81,8 @@
         </select>
         <br><br>
 
-        <label for="fecha">Fecha</label><br>
-        <input type="date" name="date" id="date" max="2024-07-30" min="2024-07-10">
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" name="fecha" max="2024-07-30" min="2024-07-10">
         <br>
         <br>
 

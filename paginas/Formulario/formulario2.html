@@ -81,8 +81,28 @@
             <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
         </fieldset>
 
+        
+
         <input type="submit" value="Enviar">
         <input type="reset" value="Restablecer">
     </form>
+
+    <form action="/procesar-formulario" method="post">
+        <h2>¿Cuáles son tus intereses?</h2>
+        <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+        <label for="tecnologia">Tecnología</label><br>
+
+        <input type="checkbox" id="deportes" name="intereses" value="deportes">
+        <label for="deportes">Deportes</label><br>
+
+        <input type="checkbox" id="musica" name="intereses" value="musica">
+        <label for="musica">Música</label><br>
+
+        <input type="checkbox" id="viajes" name="intereses" value="viajes">
+        <label for="viajes">Viajes</label><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    
 </body>
 </html>
